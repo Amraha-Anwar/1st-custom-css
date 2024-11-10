@@ -1,0 +1,119 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+/* home page */
+h2{
+    font-size: 60px;
+    margin-left:405px;
+    margin-top:50px;
+    margin-bottom:-50px;
+}
+
+#navbar{
+    margin:5%;
+    background-color: rgb(54, 54, 184);
+    height: 80px;
+    border: 10px solid black;
+    border-radius:18px;
+}
+
+#main-heading{
+    background-color: rgb(54, 54, 184);
+    color:black;
+    text-decoration: underline;
+    font-weight: bolder;
+   font-size: 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(54, 54, 184);
+    margin-top: -20px;
+}
+#anchor1{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(54, 54, 184);
+    margin-left:300px;
+    font-size: 25px;
+}
+#anchor{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(54, 54, 184);
+    font-size: 25px;
+}
+
+#anchor2{
+    text-decoration: none;
+    background-color: rgb(54, 54, 184);
+    color: black;
+    font-size: 25px;
+}
+#homePic{
+    height: 400px;
+    width: 900px;
+    margin-left:90px;
+    margin-top:-50px;
+}
+p{
+    padding-top: 1%;
+    padding-left:5%;
+    padding-right: 5%;
+}
+
+/* about page */
+.lorem{
+    text-align:left;
+    margin-top:5px;
+    margin-bottom:20px;
+}
+ul{
+    margin-left: 150px;
+    margin-top:-60px;
+    margin-bottom:20px;
+}
+#profilePic{
+    height: 300px;
+    width: 250px;
+    margin-left:60%;
+    margin-top:0px;
+}
+iframe{
+    margin-left:20%
+}
+
+/* portfolio page */
+#portPic{
+    padding-left:5%;
+    width:20%
+}
+#portText{
+    padding-left:26%;
+    margin-top:-8%
+}
+
+/* contact page */
+h4{
+    padding-left:8%;
+    font-size:26px
+}
+form{
+    padding-left:8%
+}
+#dropDown{
+    padding-left:8%
+}
+#selection{
+    padding-left:8%
+}
+#feedback{
+    padding-left:8%
+}
+#checkbutton{
+    padding-left:8%
+}
